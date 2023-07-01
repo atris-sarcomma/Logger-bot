@@ -82,4 +82,4 @@ async def read(ctx, message_id: int, note: str):
     except commands.MissingRequiredArgument as error:
         await ctx.send(f'Missing required argument: {error.param.name}')
 
-client.run('MTEyNDMxMzA1OTkyNjc0NTE0OA.GYJ88E.GKHS8loSzmu3itZEFnXdINkT5NaRj3pgmhmNjc')
+client.run('Token')
